@@ -1,0 +1,6 @@
+({
+    shouldDeps: [
+        'heading',
+        'fotorama'
+    ]
+})

@@ -1,0 +1,12 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    line-height: 49px;
+    height: 60px;
+}
+
+.header__contacts {
+
+}

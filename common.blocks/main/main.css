@@ -1,0 +1,38 @@
+.main {
+    padding: 28px 0;
+
+    color: #ccc;
+
+    background: url('../page/bg.png');
+}
+
+.main p {
+    margin: 0 0 1em;
+}
+
+.main a {
+    color: #f3c92f;
+}
+
+.main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main th {
+    text-align: left;
+    color: #f3c92f;
+}
+
+.main tr {
+    border-bottom: 1px solid;
+}
+
+.main tr:hover {
+    background: rgba(242, 200, 46, .5);
+}
+
+.align-left {
+    float: left;
+    margin: 0 20px 12px 0;
+}

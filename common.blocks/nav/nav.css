@@ -1,0 +1,14 @@
+.nav {
+    background: #f3c92f;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 2em;
+    line-height: 60px;
+    color: #000;
+}
+
+.nav__link:hover {
+    color: #fff;
+}

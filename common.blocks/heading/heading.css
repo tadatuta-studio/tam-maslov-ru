@@ -1,0 +1,9 @@
+.heading {
+    margin: 0 0 1em;
+    font-weight: normal;
+}
+
+.heading_level_2,
+h2 {
+    color: #f3c92f;
+}

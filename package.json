@@ -1,0 +1,37 @@
+{
+  "author": "Tadatuta studio",
+  "name": "tam-maslov-ru",
+  "version": "1.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tadatuta-studio/tam-maslov-ru.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "bower": "^1.6.5"
+  },
+  "devDependencies": {
+    "bem": "^0.10.2",
+    "borschik-tech-cleancss": "^2.1.0",
+    "enb": "^1.1.0",
+    "enb-bem-techs": "^2.1.0",
+    "enb-bemxjst": "tadatuta/enb-bemxjst#4.x-bemtree",
+    "enb-borschik": "^2.1.0",
+    "enb-js": "^1.1.0",
+    "enb-stylus": "^2.2.0",
+    "glob": "^6.0.2",
+    "marked": "^0.3.5",
+    "mkdirp": "^0.5.1",
+    "watch-run": "^1.2.4"
+  },
+  "scripts": {
+    "start": "enb server",
+    "postinstall": "npm run deps",
+    "deps": "bower i",
+    "make": "enb make && node generate",
+    "watch": "watch-run -p '*.blocks/**,content/**' npm run make"
+  },
+  "private": true
+}

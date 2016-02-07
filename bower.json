@@ -1,0 +1,15 @@
+{
+  "name": "tam-maslov-ru",
+  "version": "1.4.0",
+  "description": "Сайт архитектора",
+  "bugs": "https://github.com/tadatuta-studio/tam-maslov-ru/issues",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "2.4.0",
+    "fotorama": "artpolikarpov/fotorama-bower#~4.6.4"
+  }
+}

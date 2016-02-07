@@ -1,0 +1,12 @@
+.page {
+    margin: 0;
+
+    font-size: 18px;
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+
+.page__width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+}

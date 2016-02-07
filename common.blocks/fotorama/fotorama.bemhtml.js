@@ -1,0 +1,1 @@
+block('fotorama').js()(true);
