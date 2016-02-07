@@ -21,6 +21,7 @@ var fs = require('fs'),
 mkdirp.sync(path.join(outputFolder, 'i'));
 
 fs.writeFileSync(path.join(outputFolder, 'CNAME'), 'tam-maslov.ru');
+fs.writeFileSync(path.join(outputFolder, '.nojekyll'), '');
 
 glob.sync(path.join(contentFolder, '{favicons,files}', '*')).forEach(function(iconPath) {
     fs.createReadStream(iconPath).pipe(fs.createWriteStream(path.join(outputFolder, iconPath.split('/').pop())));
