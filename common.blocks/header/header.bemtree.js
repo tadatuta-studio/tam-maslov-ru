@@ -6,7 +6,11 @@ block('header').content()(function() {
         {
             elem: 'contacts',
             content: [
-                '8 917 585-78-25'
+                {
+                    tag: 'i',
+                    cls: 'fa fa-mobile'
+                },
+                ' 8 917 585-78-25'
             ]
         }
     ];

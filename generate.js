@@ -53,7 +53,9 @@ model.forEach(function(page) {
     var html = '',
         pageFolder = path.join(outputFolder, page.url),
         pageFilename= path.join(pageFolder, 'index.html'),
-        relPathToRoot = page.url ? '../' : '';
+        relPathToRoot = page.url ? page.url.split('/').map(function() {
+            return '../';
+        }).join('') : '';
 
     mkdirp.sync(pageFolder);
 
@@ -67,6 +69,12 @@ model.forEach(function(page) {
 
         if (!projectImages || !projectImages.length) return '';
 
+        var captions = {};
+
+        try {
+            captions = require('./' + path.join('content', 'portfolio',  category, project));
+        } catch(err) {}
+
         return BEMHTML.apply({
             block: 'fotorama',
             js: {
@@ -78,11 +86,14 @@ model.forEach(function(page) {
                 thumbheight: 128
             },
             content: projectImages.map(function(img) {
+                var imageName = img.split('/').pop().split('.')[0];
+
                 return {
                     tag: 'img',
                     attrs: {
                         src: relPathToRoot + img,
-                        'data-thumb': relPathToRoot + img
+                        'data-thumb': relPathToRoot + img,
+                        'data-caption': captions[imageName]
                     }
                 };
             })

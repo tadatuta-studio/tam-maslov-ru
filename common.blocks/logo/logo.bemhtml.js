@@ -1,3 +1,3 @@
 block('logo').content()(function() {
-    return 'Стас Маслов — архитектор';
+    return 'Станислав Маслов — архитектор';
 });

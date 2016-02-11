@@ -1,6 +1,9 @@
 ({
     shouldDeps: [
         'heading',
-        'fotorama'
+        'fotorama',
+        {
+            block: 'map', mods: { type: 'js' }
+        }
     ]
 })
