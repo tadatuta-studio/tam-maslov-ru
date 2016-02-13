@@ -41,6 +41,10 @@ block('root').replace()(function() {
             {
                 tag: 'link',
                 attrs: { rel: 'manifest', href: relPathToRoot + 'manifest.json' }
+            },
+            {
+                tag: 'link',
+                attrs: { rel: 'canonical', href: 'http://tam-maslov.ru/' + data.url + (data.url ? '/' : '') }
             }
         ],
         scripts: [{ elem: 'js', url: relPathToRoot + 'index.min.js' }]
