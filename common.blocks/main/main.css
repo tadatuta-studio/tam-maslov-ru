@@ -40,6 +40,10 @@
     max-width: 98%;
 }
 
+.page_type_portfolio img {
+    max-width: 420px;
+}
+
 .align-left {
     float: left;
     margin: 0 20px 12px 0;

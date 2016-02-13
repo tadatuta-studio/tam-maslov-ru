@@ -47,6 +47,7 @@ block('root').replace()(function() {
                 attrs: { rel: 'canonical', href: 'http://tam-maslov.ru/' + data.url + (data.url ? '/' : '') }
             }
         ],
-        scripts: [{ elem: 'js', url: relPathToRoot + 'index.min.js' }]
+        scripts: [{ elem: 'js', url: relPathToRoot + 'index.min.js' }],
+        mods: { type: data.url.split('/').shift() }
     };
 });

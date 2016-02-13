@@ -12,11 +12,7 @@ var fs = require('fs'),
 
     model = require(path.resolve('.', contentFolder, 'model')),
     BEMTREE = require(path.resolve('.', pathToBundle, bundleName + '.bemtree')).BEMTREE,
-    BEMHTML = require(path.resolve('.', pathToBundle, bundleName + '.bemhtml')).BEMHTML,
-    galleries = {
-        implemented: {},
-        projects: {}
-    };
+    BEMHTML = require(path.resolve('.', pathToBundle, bundleName + '.bemhtml')).BEMHTML;
 
 mkdirp.sync(path.join(outputFolder, 'i'));
 
@@ -27,7 +23,24 @@ glob.sync(path.join(contentFolder, '{favicons,files}', '*')).forEach(function(ic
     fs.createReadStream(iconPath).pipe(fs.createWriteStream(path.join(outputFolder, iconPath.split('/').pop())));
 });
 
-glob.sync(path.join(contentFolder, 'portfolio', '{implemented,projects}', '*', '*')).forEach(function(imagePath) {
+['min.js', 'min.css'].forEach(function(ext) {
+    fs.createReadStream(path.join(pathToBundle, bundleName + '.' + ext))
+        .pipe(fs.createWriteStream(path.join(outputFolder, bundleName + '.' + ext)));
+});
+
+glob.sync(path.join(contentFolder, 'images', '*')).forEach(function(image) {
+    fs.createReadStream(image).pipe(fs.createWriteStream(path.join(outputFolder, 'i', path.basename(image))));
+});
+
+// collect portfolio data and copy images
+var galleries = {
+    implemented: {},
+    projects: {}
+};
+
+var portfolioImagesGlob = path.join(contentFolder, 'portfolio', '{' + Object.keys(galleries).join() + '}', '*', '*');
+
+glob.sync(portfolioImagesGlob).forEach(function(imagePath) {
     var projectDir = path.dirname(imagePath),
         projectName = path.basename(projectDir),
         categoryName = path.basename(path.dirname(projectDir)),
@@ -40,13 +53,26 @@ glob.sync(path.join(contentFolder, 'portfolio', '{implemented,projects}', '*', '
     fs.createReadStream(imagePath).pipe(fs.createWriteStream(path.join(outputFolder, destImagePath)));
 });
 
-['min.js', 'min.css'].forEach(function(ext) {
-    fs.createReadStream(path.join(pathToBundle, bundleName + '.' + ext))
-        .pipe(fs.createWriteStream(path.join(outputFolder, bundleName + '.' + ext)));
-});
+// populate model with portfolio pages
+Object.keys(galleries).forEach(function(categoryName) {
+    var projects = galleries[categoryName];
 
-glob.sync(path.join(contentFolder, 'images', '*')).forEach(function(image) {
-    fs.createReadStream(image).pipe(fs.createWriteStream(path.join(outputFolder, 'i', path.basename(image))));
+    Object.keys(projects).forEach(function(projectName) {
+        var images = galleries[categoryName][projectName];
+
+        var pageUrl = ['portfolio', categoryName, projectName].join('/'),
+            pageFolder = path.join(outputFolder, 'portfolio', categoryName, projectName),
+            pageFilename= path.join(pageFolder, 'index.html');
+
+        model.push({
+            md: [
+                '## ' + projectName,
+                '%%%gallery:' + categoryName + ':' + projectName + '%%%'
+            ].join('\n'),
+            url: pageUrl,
+            title: projectName
+        });
+    });
 });
 
 model.forEach(function(page) {
@@ -59,46 +85,16 @@ model.forEach(function(page) {
 
     mkdirp.sync(pageFolder);
 
-    if (page.source.indexOf('.md') > -1) {
+    if (page.html) {
+        html = page.html;
+    } else if (page.md) {
+        html = marked(page.md);
+    } else if (page.source && page.source.indexOf('.md') > -1) {
         var md = fs.readFileSync(path.join(contentFolder, page.source), 'utf8');
         html = marked(md);
     }
 
-    html = html.replace(/%%%gallery:(\w+):(\w+)%%%/g, function(str, category, project) {
-        var projectImages = galleries[category] && galleries[category][project];
-
-        if (!projectImages || !projectImages.length) return '';
-
-        var captions = {};
-
-        try {
-            captions = require('./' + path.join('content', 'portfolio',  category, project));
-        } catch(err) {}
-
-        return BEMHTML.apply({
-            block: 'fotorama',
-            js: {
-                nav: 'thumbs',
-                allowfullscreen: true,
-                width: '450px',
-                maxheight: '450px',
-                thumbwidth: 128,
-                thumbheight: 128
-            },
-            content: projectImages.map(function(img) {
-                var imageName = img.split('/').pop().split('.')[0];
-
-                return {
-                    tag: 'img',
-                    attrs: {
-                        src: relPathToRoot + img,
-                        'data-thumb': relPathToRoot + img,
-                        'data-caption': captions[imageName]
-                    }
-                };
-            })
-        })
-    });
+    html = replaceGalleryTags(html, relPathToRoot);
 
     fs.writeFileSync(pageFilename, BEMHTML.apply(BEMTREE.apply({
         block: 'root',
@@ -106,10 +102,51 @@ model.forEach(function(page) {
             url: page.url,
             relPathToRoot: relPathToRoot,
             pages: model,
-            content: html,
-            galleries: galleries
+            content: html
         }
     })));
 });
+
+function replaceGalleryTags(html, relPathToRoot) {
+    return html.replace(/%%%gallery:(\w+):(\w+)%%%/g, function(str, category, project) {
+        var projectImages = galleries[category] && galleries[category][project];
+
+        return buildFotoramaHtml(category, project, projectImages, relPathToRoot);
+    });
+}
+
+function buildFotoramaHtml(category, project, images, relPathToRoot) {
+    if (!images || !images.length) return '';
+
+    var captions = {};
+
+    try {
+        captions = require('./' + path.join('content', 'portfolio',  category, project));
+    } catch(err) {}
+
+    return BEMHTML.apply({
+        block: 'fotorama',
+        js: {
+            nav: 'thumbs',
+            allowfullscreen: true,
+            width: '450px',
+            maxheight: '450px',
+            thumbwidth: 128,
+            thumbheight: 128
+        },
+        content: images.map(function(img) {
+            var imageName = img.split('/').pop().split('.')[0];
+
+            return {
+                tag: 'img',
+                attrs: {
+                    src: relPathToRoot + img,
+                    'data-thumb': relPathToRoot + img,
+                    'data-caption': captions[imageName]
+                }
+            };
+        })
+    });
+}
 
 console.log('Site was generated at', path.resolve(outputFolder));
