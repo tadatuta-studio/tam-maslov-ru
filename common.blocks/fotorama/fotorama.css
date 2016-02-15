@@ -3,6 +3,10 @@
 }
 
 .fotorama .fotorama__fullscreen-icon {
+    display: block;
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0) !important;
+
     background: none;
     color: #fff;
     text-shadow: 0 0 3px rgba(0, 0, 0, .5);

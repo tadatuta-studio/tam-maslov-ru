@@ -10,3 +10,7 @@
     margin: auto;
     padding: 0 40px;
 }
+
+.page_type_portfolio .page__width {
+    max-width: none;
+}
