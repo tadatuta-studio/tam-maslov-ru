@@ -26,11 +26,9 @@
 
 <div class="map map_type_js i-bem" data-bem='{ "map": { "points": [[55.367315, 37.537928]] } }'></div>
 
-<i class="fa fa-mobile"></i> 8 917 585-78-25
-
 ### Контакты
 
-Телефон: +7-917-585-78-25
+<i class="fa fa-mobile"></i> 8 917 585-78-25
 
 Почта: Tam.maslov@yandex.ru
 
