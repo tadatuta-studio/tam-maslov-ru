@@ -5,7 +5,9 @@
     <th></th>
     <th>Стадия разработки</th>
     <th>Состав проектной документации</th>
-    <th>Цена</th><th>Примечание</th>
+    <th>Цена</th>
+    <th>Примечание</th>
+    <th>Пример</th>
 </tr>
 <tr>
     <td rowspan="2">Архитектурные решения</td>
@@ -21,6 +23,7 @@
     </td>
     <td>120р/м²</td>
     <td>Но не менее 20000 р. за проект.</td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Рабочая документация</td>
@@ -46,6 +49,7 @@
     </td>
     <td>200р/м²</td>
     <td>Но не менее 40000 р. за проект</td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Конструктивные решения</td>
@@ -65,6 +69,7 @@
     </td>
     <td>250р/м²</td>
     <td>Но не менее 40000 р. за проект</td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Отопления и вентиляция</td>
@@ -72,6 +77,7 @@
     <td></td>
     <td>100 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Водоснабжение и канализация</td>
@@ -79,6 +85,7 @@
     <td></td>
     <td>100 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Электроосвещение</td>
@@ -86,6 +93,7 @@
     <td></td>
     <td>100 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td rowspan="2">Дизайн фасадов</td>
@@ -93,6 +101,7 @@
     <td>Изображения различных вариантов дизайна.</td>
     <td>от 150 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Рабочая документация</td>
@@ -107,6 +116,7 @@
     </td>
     <td>от 300 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Ландшафтный дизайн</td>
@@ -114,6 +124,7 @@
     <td></td>
     <td></td>
     <td>Индивидуально</td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>Дизайн интерьеров</td>
@@ -127,6 +138,7 @@
     </td>
     <td>От 1500 р/м²</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td rowspan="2">Авторский надзор</td>
@@ -141,6 +153,7 @@
             <li>Сложности объекта.</li>
         </ul>
     </td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 <tr>
     <td>1 месяц</td>
@@ -153,6 +166,7 @@
     </td>
     <td>От 15000р.</td>
     <td></td>
+    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
 </tr>
 </table>
 
