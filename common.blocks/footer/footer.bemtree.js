@@ -2,7 +2,7 @@ block('footer').content()(function() {
     return [
         {
             elem: 'item',
-            content: '© ' + new Date().getFullYear() + ' Станислав&nbsp;Маслов'
+            content: '© 2015 Станислав&nbsp;Маслов'
         },
         {
             elem: 'item',
