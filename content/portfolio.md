@@ -13,11 +13,11 @@
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/tower/1.jpg)](projects/tower/)
 [![](projects/vologda/1.jpg)](projects/vologda/)
-[![](projects/hitech/1.jpg)](projects/hitech/)
+[![](projects/2/3.jpg)](projects/2/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
 [![](projects/lounge/1.jpg)](projects/lounge/)
 [![](projects/1/1.jpg)](projects/1/)
-[![](projects/2/3.jpg)](projects/2/)
+[![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/fence/1.jpg)](projects/fence/)
 
 <a id="video"></a>
