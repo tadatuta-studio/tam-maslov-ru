@@ -17,7 +17,6 @@
 [![](projects/lounge/1.jpg)](projects/lounge/)
 [![](projects/tower/1.jpg)](projects/tower/)
 [![](projects/vologda/1.jpg)](projects/vologda/)
-[![](projects/test/1.jpg)](projects/test/)
 [![](projects/1/1.jpg)](projects/1/)
 
 <a id="video"></a>
