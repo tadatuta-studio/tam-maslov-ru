@@ -17,6 +17,7 @@
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/2/3.jpg)](projects/2/)
 [![](projects/lounge/1.jpg)](projects/lounge/)
+[![](projects/4/1.jpg)](projects/4/)
 [![](projects/1/1.jpg)](projects/1/)
 [![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/fence/1.jpg)](projects/fence/)
