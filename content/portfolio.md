@@ -18,6 +18,7 @@
 [![](projects/tower/1.jpg)](projects/tower/)
 [![](projects/vologda/1.jpg)](projects/vologda/)
 [![](projects/1/1.jpg)](projects/1/)
+[![](projects/2/3.jpg)](projects/2/)
 
 <a id="video"></a>
 ### Видео
