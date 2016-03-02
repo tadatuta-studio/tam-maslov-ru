@@ -10,7 +10,6 @@
 [![](projects/project1/1.jpg)](projects/project1/)
 [![](projects/agava/1.jpg)](projects/agava/)
 [![](projects/armen/1.jpg)](projects/armen/)
-[![](projects/fence/1.jpg)](projects/fence/)
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
@@ -19,6 +18,7 @@
 [![](projects/vologda/1.jpg)](projects/vologda/)
 [![](projects/1/1.jpg)](projects/1/)
 [![](projects/2/3.jpg)](projects/2/)
+[![](projects/fence/1.jpg)](projects/fence/)
 
 <a id="video"></a>
 ### Видео
