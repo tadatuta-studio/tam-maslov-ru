@@ -22,6 +22,15 @@
 [![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/fence/1.jpg)](projects/fence/)
 [![](projects/7/1.jpg)](projects/7/)
+[![](projects/31/1.jpg)](projects/31/)
+[![](projects/35/1.jpg)](projects/35/)
+[![](projects/13/1.jpg)](projects/13/)
+[![](projects/12/1.jpg)](projects/12/)
+[![](projects/24/1.jpg)](projects/24/)
+[![](projects/25/1.jpg)](projects/25/)
+[![](projects/29/1.jpg)](projects/29/)
+[![](projects/30/1.jpg)](projects/30/)
+
 
 <a id="video"></a>
 ### Видео
