@@ -21,6 +21,7 @@
 [![](projects/1/1.jpg)](projects/1/)
 [![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/fence/1.jpg)](projects/fence/)
+[![](projects/7/1.jpg)](projects/7/)
 
 <a id="video"></a>
 ### Видео
