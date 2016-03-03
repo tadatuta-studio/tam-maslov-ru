@@ -39,7 +39,7 @@
 [![](projects/28/1.jpg)](projects/28/)
 [![](projects/hitech/1.jpg)](projects/hitech/)
 [![](projects/1/1.jpg)](projects/1/)
-[![](projects/11/1.jpg)](projects/11/)
+[![](projects/11/2.jpg)](projects/11/)
 
 
 [![](projects/4/1.jpg)](projects/4/)
