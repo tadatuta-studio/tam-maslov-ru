@@ -15,7 +15,7 @@
 [![](projects/7/1.jpg)](projects/7/)
 [![](projects/vologda/1.jpg)](projects/vologda/)
 [![](projects/8/1.jpg)](projects/8/)
-[![](projects/2/3.jpg)](projects/2/)
+[![](projects/2/1.jpg)](projects/2/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
 [![](projects/31/1.jpg)](projects/31/)
 [![](projects/35/1.jpg)](projects/35/)
