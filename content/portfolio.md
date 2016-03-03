@@ -55,7 +55,7 @@
 [![](projects/fence/1.jpg)](projects/fence/)
 
 
-[![](projects/candle/1.jpg)](projects/5/)
+[![](projects/5/1.jpg)](projects/5/)
 [![](projects/33/1.jpg)](projects/33/)
 
 
