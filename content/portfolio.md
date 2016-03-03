@@ -46,9 +46,9 @@
 [![](projects/4/1.jpg)](projects/4/)
 [![](projects/37/1.jpg)](projects/37/)
 [![](projects/34/1.jpg)](projects/34/)
+[![](projects/fence/1.jpg)](projects/fence/)
 [![](projects/5/1.jpg)](projects/5/)
 [![](projects/33/1.jpg)](projects/33/)
-[![](projects/fence/1.jpg)](projects/fence/)
 
 
 <a id="video"></a>
