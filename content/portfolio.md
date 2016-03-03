@@ -17,8 +17,8 @@
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/3/1.jpg)](projects/3/)
 [![](projects/2/1.jpg)](projects/2/)
-[![](projects/tower/1.jpg)](projects/tower/)
 [![](projects/22/1.jpg)](projects/22/)
+[![](projects/tower/1.jpg)](projects/tower/)
 [![](projects/vologda/1.jpg)](projects/vologda/)
 [![](projects/31/1.jpg)](projects/31/)
 [![](projects/12/1.jpg)](projects/12/)
@@ -42,8 +42,8 @@
 [![](projects/11/1.jpg)](projects/11/)
 
 
-[![](projects/lounge/1.jpg)](projects/lounge/)
 [![](projects/4/1.jpg)](projects/4/)
+[![](projects/lounge/1.jpg)](projects/lounge/)
 
 
 [![](projects/9/1.jpg)](projects/9/)
