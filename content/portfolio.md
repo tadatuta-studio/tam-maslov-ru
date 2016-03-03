@@ -28,9 +28,9 @@
 [![](projects/18/1.jpg)](projects/18/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
 [![](projects/26/1.jpg)](projects/26/)
-[![](projects/29/1.jpg)](projects/29/)
 [![](projects/17/1.jpg)](projects/17/)
 [![](projects/30/1.jpg)](projects/30/)
+[![](projects/29/1.jpg)](projects/29/)
 [![](projects/25/1.jpg)](projects/25/)
 [![](projects/21/1.jpg)](projects/21/)
 [![](projects/19/1.jpg)](projects/19/)
@@ -47,7 +47,7 @@
 
 
 [![](projects/9/1.jpg)](projects/9/)
-[![](projects/10/4.jpg)](projects/10/)
+[![](projects/10/1.jpg)](projects/10/)
 
 
 [![](projects/37/1.jpg)](projects/37/)
