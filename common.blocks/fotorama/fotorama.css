@@ -1,6 +1,6 @@
-.fotorama:not(.fotorama_js_inited) img {
+/*.fotorama:not(.fotorama_js_inited) img {
     max-width: 450px;
-}
+}*/
 
 .fotorama .fotorama__fullscreen-icon {
     display: block;

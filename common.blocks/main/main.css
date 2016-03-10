@@ -42,6 +42,12 @@
 
 .page_type_portfolio img {
     max-width: 420px;
+    border: 5px solid transparent;
+    transition: border-color 0.5s ease-out;
+}
+
+.page_type_portfolio img:hover {
+    border-color: #f3c92f;
 }
 
 .align-left {
