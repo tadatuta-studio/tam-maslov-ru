@@ -68,7 +68,7 @@
         </ul>
     </td>
     <td>250р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../КР..pdf" target="_blank">Пример</a></td>
     <td>Но не менее 40000 р. за проект</td>
 </tr>
 <tr>
