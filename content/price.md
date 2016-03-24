@@ -21,7 +21,7 @@
             <li>Макет дома в виде 3D изображений</li>
         </ul>
     </td>
-    <td>от 100р/м²</td>
+    <td> 100р/м²</td>
     <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 15000 р. за проект.</td>
 </tr>
@@ -47,7 +47,7 @@
         </ul>
         И прочее по необходимости.
     </td>
-    <td>от 150р/м²</td>
+    <td> 150р/м²</td>
     <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 25000 р. за проект</td>
 </tr>
@@ -67,7 +67,7 @@
             <li>Чертежи лестницы.</li>
         </ul>
     </td>
-    <td>от 150р/м²</td>
+    <td> 150р/м²</td>
     <td><a href="../КР..pdf" target="_blank">Пример</a></td>
     <td>Но не менее 25000 р. за проект</td>
 </tr>
@@ -76,7 +76,6 @@
     <td>Рабочая документация</td>
     <td></td>
     <td>15000р</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
     <td></td>
 </tr>
 <tr>
