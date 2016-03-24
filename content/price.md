@@ -80,11 +80,19 @@
     <td></td>
 </tr>
 <tr>
-    <td>Отопление и вентиляция</td>
+    <td>Отопление</td>
     <td>Рабочая документация</td>
     <td></td>
     <td>100 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../Система отопления.pdf" target="_blank">Пример</a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Вентиляция и кондиционирование</td>
+    <td>Рабочая документация</td>
+    <td></td>
+    <td>100 р/м²</td>
+    <td><a href="../Вентиляция и кондиционирование.pdf" target="_blank">Пример</a></td>
     <td></td>
 </tr>
 <tr>
@@ -92,7 +100,7 @@
     <td>Рабочая документация</td>
     <td></td>
     <td>100 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../ВК.pdf" target="_blank">Пример</a></td>
     <td></td>
 </tr>
 <tr>
@@ -100,7 +108,15 @@
     <td>Рабочая документация</td>
     <td></td>
     <td>100 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../Силовое электрооборудование и электроосвещение.pdf" target="_blank">Пример</a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Сети связи</td>
+    <td>Рабочая документация</td>
+    <td></td>
+    <td>100 р/м²</td>
+    <td><a href="../Сети связи.pdf" target="_blank">Пример</a></td>
     <td></td>
 </tr>
 <tr>
@@ -153,7 +169,7 @@
     <td>1 выезд</td>
     <td>Выезд по требованию заказчика</td>
     <td>От 2000р</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><td>
     <td>Цена складывается из:
         <ul>
             <li>Удаленности объекта</li>
@@ -173,7 +189,7 @@
         </ul>
     </td>
     <td>От 15000р.</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><td>
     <td></td>
 </tr>
 </table>
