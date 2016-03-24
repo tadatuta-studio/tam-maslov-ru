@@ -25,6 +25,7 @@
     <td> 100р/м²</td>
     <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 15000 р. за проект.</td>
+    <td></td>
 </tr>
 <tr>
     <td>Рабочая документация</td>
@@ -51,6 +52,7 @@
     <td> 150р/м²</td>
     <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 25000 р. за проект</td>
+    <td></td>
 </tr>
 <tr>
     <td>Конструктивные решения</td>
