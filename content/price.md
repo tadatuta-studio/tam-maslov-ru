@@ -124,7 +124,7 @@
     <td>Эскиз</td>
     <td>Изображения различных вариантов дизайна.</td>
     <td>от 150 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td></td>
     <td></td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@
         </ul>
     </td>
     <td>от 300 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../facade-example.pdf" target="_blank">Пример</a></td>
     <td></td>
 </tr>
 <tr>
