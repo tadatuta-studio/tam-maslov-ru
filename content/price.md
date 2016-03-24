@@ -6,8 +6,8 @@
     <th>Стадия разработки</th>
     <th>Состав проектной документации</th>
     <th>Цена</th>
-    <th>Примечание</th>
     <th>Пример</th>
+    <th>Примечание</th>
 </tr>
 <tr>
     <td rowspan="2">Архитектурные решения</td>
@@ -147,7 +147,7 @@
     <td></td>
     <td></td>
     <td></td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td></td>
     <td>Индивидуально</td>
 </tr>
 <tr>
@@ -161,7 +161,7 @@
         </ul>
     </td>
     <td>От 1500 р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td></td>
     <td></td>
 </tr>
 <tr>
