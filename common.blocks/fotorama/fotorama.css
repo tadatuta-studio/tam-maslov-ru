@@ -14,9 +14,9 @@
 }
 
 .fotorama .fotorama__fullscreen-icon:before {
-    content: "Увеличить ";
+    content: "Полный экран ";
 }
 
 .fotorama--fullscreen .fotorama__fullscreen-icon:before {
-    content: "Уменьшить ";
+    content: "Назад ";
 }

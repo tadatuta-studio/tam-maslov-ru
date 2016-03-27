@@ -129,8 +129,9 @@ function buildFotoramaHtml(category, project, images, relPathToRoot) {
         js: {
             nav: 'thumbs',
             allowfullscreen: true,
-            // width: '450px',
-            // maxheight: '450px',
+            // width: 450,
+            maxwidth: 900,
+            // maxheight: 450,
             thumbwidth: 128,
             thumbheight: 128
         },
