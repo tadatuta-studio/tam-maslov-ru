@@ -25,6 +25,8 @@
 <br>
 
 
+
+
 <div class="map map_type_js i-bem" data-bem='{ "map": { "points": [[55.367315, 37.537928]] } }'></div>
 
 ### Контакты
