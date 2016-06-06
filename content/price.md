@@ -22,7 +22,7 @@
         </ul>
     </td>
     <td> 100р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td><a href="../эскиз штамп мал.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 15000 р. за проект.</td>
 </tr>
 <tr>
@@ -47,8 +47,8 @@
         </ul>
         И прочее по необходимости.
     </td>
-    <td> 150р/м²</td>
-    <td><a href="../project-example.pdf" target="_blank">Пример</a></td>
+    <td> от 150р/м²</td>
+    <td><a href="../АР штамп мал.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 25000 р. за проект</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@
             <li>Чертежи лестницы.</li>
         </ul>
     </td>
-    <td> 150р/м²</td>
+    <td> от 200р/м²</td>
     <td><a href="../Королёв Пример РД КР штамп.pdf" target="_blank">Пример</a></td>
     <td>Но не менее 25000 р. за проект</td>
 </tr>
