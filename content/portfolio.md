@@ -7,8 +7,8 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
+[![](projects/spartak/1.jpg)](projects/spartak/)
 [![](projects/project1/1.jpg)](projects/project1/)
-[![](projects/agava/1.jpg)](projects/agava/)
 [![](projects/armen/1.jpg)](projects/armen/)
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/7/1.jpg)](projects/7/)
@@ -16,6 +16,7 @@
 [![](projects/13/1.jpg)](projects/13/)
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/3/1.jpg)](projects/3/)
+[![](projects/agava/1.jpg)](projects/agava/)
 [![](projects/2/1.jpg)](projects/2/)
 [![](projects/22/1.jpg)](projects/22/)
 [![](projects/tower/1.jpg)](projects/tower/)
