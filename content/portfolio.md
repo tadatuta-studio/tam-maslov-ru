@@ -7,7 +7,7 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
-[![](projects/spartak.jpg)](projects/spartak/)
+[![](projects/spartak/1.jpg)](projects/spartak/)
 [![](projects/tw/1.jpg)](projects/tw/)
 [![](projects/project1/1.jpg)](projects/project1/)
 [![](projects/armen/1.jpg)](projects/armen/)
