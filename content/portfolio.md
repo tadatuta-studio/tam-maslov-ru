@@ -26,6 +26,7 @@
 [![](projects/16/1.jpg)](projects/16/)
 [![](projects/15/1.jpg)](projects/15/)
 [![](projects/27/1.jpg)](projects/27/)
+[![](projects/chka/1.jpg)](projects/chka/)
 [![](projects/18/1.jpg)](projects/18/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
 [![](projects/26/1.jpg)](projects/26/)
