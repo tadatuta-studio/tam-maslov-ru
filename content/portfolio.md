@@ -10,7 +10,7 @@
 [![](projects/spartak/1.jpg)](projects/spartak/)
 [![](projects/tw/1.jpg)](projects/tw/)
 [![](projects/project1/1.jpg)](projects/project1/)
-[![](projects/gothic/3.jpg)](projects/gothic/)
+[![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/7/1.jpg)](projects/7/)
 [![](projects/35/1.jpg)](projects/35/)
 [![](projects/13/1.jpg)](projects/13/)
