@@ -7,14 +7,15 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
-[![](projects/spartak/1.jpg)](projects/spartak/)
-[![](projects/tw/1.jpg)](projects/tw/)
 [![](projects/project1/1.jpg)](projects/project1/)
 [![](projects/gothic/1.jpg)](projects/gothic/)
+[![](projects/tw/1.jpg)](projects/tw/)
+[![](projects/spartak/1.jpg)](projects/spartak/)
+[![](projects/8/1.jpg)](projects/8/)
+[![](projects/13/1.jpg)](projects/13/)
+[![](projects/chka/1.jpg)](projects/chka/)
 [![](projects/7/1.jpg)](projects/7/)
 [![](projects/35/1.jpg)](projects/35/)
-[![](projects/13/1.jpg)](projects/13/)
-[![](projects/8/1.jpg)](projects/8/)
 [![](projects/3/1.jpg)](projects/3/)
 [![](projects/agava/1.jpg)](projects/agava/)
 [![](projects/2/1.jpg)](projects/2/)
@@ -27,7 +28,6 @@
 [![](projects/16/1.jpg)](projects/16/)
 [![](projects/15/1.jpg)](projects/15/)
 [![](projects/27/1.jpg)](projects/27/)
-[![](projects/chka/1.jpg)](projects/chka/)
 [![](projects/18/1.jpg)](projects/18/)
 [![](projects/hitech2/1.jpg)](projects/hitech2/)
 [![](projects/26/1.jpg)](projects/26/)
