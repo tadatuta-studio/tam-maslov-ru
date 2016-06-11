@@ -39,7 +39,7 @@
 [![](projects/cat/1.jpg)](projects/cat/)
 [![](projects/3/1.jpg)](projects/3/)
 [![](projects/21/1.jpg)](projects/21/)
-[![](projects/23/2.jpg)](projects/23/)
+[![](projects/23/1.jpg)](projects/23/)
 [![](projects/w3/1.jpg)](projects/w3/)
 [![](projects/30/1.jpg)](projects/30/)
 [![](projects/29/1.jpg)](projects/29/)
