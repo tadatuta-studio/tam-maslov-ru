@@ -7,14 +7,14 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
-[![](projects/project1/1.jpg)](projects/project1/)
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/tale/1.jpg)](projects/tale/)
 [![](projects/8/1.jpg)](projects/8/)
+[![](projects/project1/1.jpg)](projects/project1/)
 [![](projects/13/1.jpg)](projects/13/)
-[![](projects/tw/1.jpg)](projects/tw/)
 [![](projects/chka/1.jpg)](projects/chka/)
 [![](projects/spartak/1.jpg)](projects/spartak/)
+[![](projects/tw/1.jpg)](projects/tw/)
 [![](projects/brown/1.jpg)](projects/brown/)
 [![](projects/7/1.jpg)](projects/7/)
 [![](projects/35/1.jpg)](projects/35/)
