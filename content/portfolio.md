@@ -57,7 +57,7 @@
 
 
 [![](projects/4/1.jpg)](projects/4/)
-[![](projects/lounge/3.jpg)](projects/lounge/)
+[![](projects/lounge/4.jpg)](projects/lounge/)
 
 
 [![](projects/9/1.jpg)](projects/9/)
