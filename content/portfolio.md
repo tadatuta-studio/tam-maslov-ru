@@ -7,7 +7,7 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
-[![](projects/gothic/1.jpg)](projects/gothic/) <a id="projects"></a> ### Дом в готическом стиле
+[![](projects/gothic/1.jpg Дом в готическом стиле)](projects/gothic/)
 [![](projects/tale/1.jpg)](projects/tale/)
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/project1/2.jpg)](projects/project1/)
