@@ -9,7 +9,7 @@
 
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/lake/1.jpg)](projects/lake/)
-[![](projects/tale/1.jpg)](projects/tale/)
+[![](projects/tale/4.jpg)](projects/tale/)
 [![](projects/project1/2.jpg)](projects/project1/)
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/13/1.jpg)](projects/13/)
