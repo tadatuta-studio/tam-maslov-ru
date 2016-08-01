@@ -59,6 +59,9 @@
 [![](projects/11/2.jpg)](projects/11/)
 [![](projects/hitech/4.jpg)](projects/hitech/)
 [![](projects/1/1.jpg)](projects/1/)
+[![](projects/w01/1.jpg)](projects/w01/)
+[![](projects/wbig/1.jpg)](projects/wbig/)
+[![](projects/w02/1.jpg)](projects/w02/)
 
 
 [![](projects/4/1.jpg)](projects/4/)
