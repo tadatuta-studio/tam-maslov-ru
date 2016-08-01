@@ -8,8 +8,8 @@
 ### Проекты/визуализация
 
 [![](projects/gothic/1.jpg)](projects/gothic/)
-[![](projects/lake/1.jpg)](projects/lake/)
 [![](projects/wbig/4.jpg)](projects/wbig/)
+[![](projects/lake/1.jpg)](projects/lake/)
 [![](projects/project1/2.jpg)](projects/project1/)
 [![](projects/8/1.jpg)](projects/8/)
 [![](projects/13/1.jpg)](projects/13/)
@@ -44,8 +44,8 @@
 [![](projects/w1/1.jpg)](projects/w1/)
 [![](projects/25/1.jpg)](projects/25/)
 [![](projects/sn/1.jpg)](projects/sn/)
-[![](projects/w02/1.jpg)](projects/w02/)
 [![](projects/3/1.jpg)](projects/3/)
+[![](projects/w02/1.jpg)](projects/w02/)
 [![](projects/21/1.jpg)](projects/21/)
 [![](projects/23/1.jpg)](projects/23/)
 [![](projects/w3/1.jpg)](projects/w3/)
