@@ -42,7 +42,7 @@ module.exports = [
     {
         source: 'articles.md',
         url: 'articles',
-        title: 'Статьи'
+        title: 'Когда инженеры строят (видео-отчёты со строек)'
     },
     {
         source: 'articles/article1.md',
