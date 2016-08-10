@@ -48,7 +48,6 @@
 [![](projects/3/1.jpg)](projects/3/)
 [![](projects/w02/1.jpg)](projects/w02/)
 [![](projects/21/1.jpg)](projects/21/)
-[![](projects/23/2.jpg)](projects/23/)
 [![](projects/30/2.jpg)](projects/30/)
 [![](projects/29/1.jpg)](projects/29/)
 [![](projects/2/1.jpg)](projects/2/)
