@@ -7,6 +7,15 @@
 <a id="projects"></a>
 ### Проекты/визуализация
 
+[![](projects/бе1/1.jpg)](projects/бе1/)
+[![](projects/бе2/1.jpg)](projects/бе2/)
+[![](projects/бе3/1.jpg)](projects/бе3/)
+[![](projects/бе4/1.jpg)](projects/бе4/)
+[![](projects/бе5/1.jpg)](projects/бе5/)
+[![](projects/ба1/1.jpg)](projects/ба1/)
+[![](projects/ба2/1.jpg)](projects/ба2/)
+[![](projects/ба3/1.jpg)](projects/ба3/)
+[![](projects/ба4/1.jpg)](projects/ба4/)
 [![](projects/gothic/1.jpg)](projects/gothic/)
 [![](projects/wbig/4.jpg)](projects/wbig/)
 [![](projects/lake/1.jpg)](projects/lake/)
