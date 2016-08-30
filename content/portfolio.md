@@ -12,7 +12,7 @@
 [![](projects/be3/1.jpg)](projects/be3/)
 [![](projects/be4/1.jpg)](projects/be4/)
 [![](projects/be5/1.jpg)](projects/be5/)
-[![](projects/ba1/1.jpg)](projects/ba1/)
+[![](projects/ba1/2.jpg)](projects/ba1/)
 [![](projects/ba2/1.jpg)](projects/ba2/)
 [![](projects/ba3/1.jpg)](projects/ba3/)
 [![](projects/ba4/1.jpg)](projects/ba4/)
