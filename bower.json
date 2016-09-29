@@ -9,7 +9,7 @@
     "libs"
   ],
   "dependencies": {
-    "bem-components": "2.4.0",
+    "bem-components": "3.0.1",
     "fotorama": "artpolikarpov/fotorama-bower#~4.6.4"
   }
 }

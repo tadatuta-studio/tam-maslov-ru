@@ -7,22 +7,21 @@
     "url": "git://github.com/tadatuta-studio/tam-maslov-ru.git"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "dependencies": {
-    "bower": "^1.6.5"
+    "bower": "^1.7.9"
   },
   "devDependencies": {
-    "bem": "^0.10.2",
     "borschik-tech-cleancss": "^2.1.0",
-    "enb": "^1.1.0",
-    "enb-bem-techs": "^2.1.0",
-    "enb-bemxjst": "^6.0.0",
-    "enb-borschik": "^2.1.0",
+    "enb": "^1.4.0",
+    "enb-bem-techs": "^2.2.1",
+    "enb-bemxjst": "^6.5.3",
+    "enb-borschik": "^2.4.0",
     "enb-js": "^1.1.0",
-    "enb-stylus": "^2.2.0",
-    "glob": "^7.0.3",
-    "marked": "^0.3.5",
+    "enb-stylus": "^2.4.0",
+    "glob": "^7.1.0",
+    "marked": "^0.3.6",
     "mkdirp": "^0.5.1",
     "watch-run": "^1.2.4"
   },
